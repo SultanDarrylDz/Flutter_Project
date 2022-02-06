@@ -29,17 +29,7 @@ class Menu1_Screen extends StatelessWidget {
                     Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Container(
-                          width: 440,
-                          height: 200,
-                          margin: EdgeInsets.all(20),
-                          decoration: BoxDecoration(
-                            image: DecorationImage(
-                              image: AssetImage('assets/img/logo.jpg'),
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ),
+
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [

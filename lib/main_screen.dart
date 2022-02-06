@@ -14,7 +14,7 @@ class _MainScreenState extends State<MainScreen> {
   List<Widget> _widgetOptions = <Widget>[
     HomeScreen(),
     Menu1_Screen(),
-    ProfileScreen(),
+    Profile_Screen(),
   ];
   @override
   Widget build(BuildContext context) {
