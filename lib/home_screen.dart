@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
-import 'menu1_screen.dart';
-import 'menu2_screen.dart';
+import 'package:pkl/menu1_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Mengenal Alphabet"),
-        backgroundColor: Colors.red,
+        title: Text("Home"),
+        backgroundColor: Colors.black,
       ),
       body: Container(
         color: Colors.white,
@@ -21,9 +20,15 @@ class HomeScreen extends StatelessWidget {
               width: 700,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage('assets/img/alpa.png'),
+                    image: AssetImage('assets/img/alphabet.jpg'),
                     fit: BoxFit.cover),
                 gradient: LinearGradient(colors: [Colors.white, Colors.white]),
+              ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  
+                ],
               ),
             ),
           ],

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'main_screen.dart';
+import 'package:pkl/main_screen.dart';
 import 'package:splash_screen_view/SplashScreenView.dart';
 
 void main() {
@@ -15,15 +15,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: SplashScreenView(
         navigateRoute: MainScreen(),
-        duration: 4000,
-        imageSize: 130,
-        imageSrc: "assets/img/logologo.png",
-        backgroundColor: Colors.white,
-        text: "Pkl App",
-        textType: TextType.TyperAnimatedText,
-        textStyle: TextStyle(
-          fontSize: 30.0,
-        ),
+        duration: 7000,
+        imageSize: 200,
+        imageSrc: "assets/img/logo.png",
+        backgroundColor: Colors.black26,
       ),
     );
   }
